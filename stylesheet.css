@@ -1,0 +1,25 @@
+.padding-padrao{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.botao{
+    background-color: #04AA6D;
+    color: #ffffff;
+    border-style: solid;
+    border-color: #04AA6D;
+    border-radius: 3px;
+}
+
+.menu{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.imagem{
+    padding-right: 10px;
+}
+
+.campo{
+    border-style: solid;
+    border-color: black;
+}

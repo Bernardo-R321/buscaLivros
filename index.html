@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca Livro</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="menu padding-padrao">
+        <form onsubmit="return false;">
+            <label for="input">ISBN</label>
+            <input id="input" type="text">
+            <button id="pesquisar" class="botao">Pesquisar</button>
+        </form>
+    </div>
+    <div class="padding-padrao" style="display: flex">
+        <div class="imagem">
+            <img id="imagem">
+        </div>
+        <div>
+            <div id="isbn" class="campo"></div>
+            <div id="titulo" class="campo"></div>
+            <div id="synopsis" class="campo"></div>
+            <div id="authors" class="campo"></div>
+            <div id="publisher" class="campo"></div>
+            <div id="year" class="campo"></div>
+            <div id="format" class="campo"></div>
+            <div id="subjects" class="campo"></div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
+
+
+<!-- console.log(retornoJson.isbn);
+console.log(retornoJson.title);
+console.log(retornoJson.synopsis);
+for(i = 0; i<retornoJson.authors.length; i++){
+    console.log(retornoJson.authors[i]);
+};
+console.log(retornoJson.publisher);
+console.log(retornoJson.year);
+console.log(retornoJson.format);
+for(i = 0; i<retornoJson.subjects.length; i++){
+    console.log(retornoJson.subjects[i]);
+}; -->
